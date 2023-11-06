@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>videogame Store</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+
+<body>
+
+    <header>
+        <center>
+            <h1>Bienvenidos a videogame Store</h1>
+        </center>
+        
+
+        <center><a href="index.html"><img src="imagenes/Videojuegos.png" width="400 px" alt="Logo de la tienda"></a>
+        </center>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="servicios.html">servicios</a></li>
+                <li><a href="catalogo.html">catalogo</a></li>
+                <li><a href="#formulario">Nuevoproducto </a></li>
+            </ul>
+        
+            <div class="container">
+                <a href="catalogo.html"><img src="imagenes/Dark souls.png" width="400px" height="500px"
+                        alt="trilogia"></a>
+                <a href="catalogo.html"><img src="imagenes/resident evil.png" width="400px" height="500px"
+                        alt="zombie"></a>
+                <a href="catalogo.html"><img src="imagenes/tomb rider.png" width="400px" height="500px" alt="pelea"></a>
+            </div>
+       
+
+
+        </nav>
+    </header>
+  
+    <main>
+      
+        <div class="Nuevoproducto" id="formulario"></div>
+ 
+        <h1>formulario</h1>
+        <form action="procesar_formulario.php" method="post">
+
+
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="price">Precio:</label>
+            <input type="number" id="price" name="price" required>
+
+            <label for="inventory">Inventario:</label>
+            <input type="number" id="inventory" name="inventory" required>
+
+            <button type="submit" name="createProduct">Crear Producto</button>
+        </form>
+
+
+    </main>
+
+</body>
+
+</html>
