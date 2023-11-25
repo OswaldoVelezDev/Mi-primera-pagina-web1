@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <h1 class="form_title">Iniciar sesión</h1>
+    <p class="form_paragraph">¿ aun no tienes una cuenta?<a href="#" class="form_link">entra aqui</a></p>
+
+
+         
+    <div class="nombre-esquina">
+        videogame Store
+      </div>
+        <form action="procesar_formulario.php" method="post">
+            
+                <div class="contenedor-caja">
+                  <div class="formulario-caja">
+            <div class="formulario">
+                
+
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="price">Precio:</label>
+            <input type="number" id="price" name="price" required>
+
+            <label for="inventory">Inventario:</label>
+            <input type="number" id="inventory" name="inventory" required>
+
+            <button type="submit" name="createProduct">Crear Producto</button>
+        </div>
+</body>
+</html>
+

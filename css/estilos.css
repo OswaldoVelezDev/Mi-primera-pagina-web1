@@ -1,2 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300;1,600&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(187, 247, 250);
+
+    background-size: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+    .nombre-esquina {
+        position: fixed;
+        top: 20px;
+        left: 20px;
+        color: #ee0808;
+        font-size: 24px;
+        font-weight: lighter;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 
+
+    }
+}
+
+.contenedor-caja {
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    /* Agrega sombreado al contenedor */
+    border-radius: 8px;
+    overflow: hidden;
+    max-width: 400px;
+    /* Limita el ancho del contenedor */
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    /* Evita que el padding afecte el ancho total */
+}
+
+.formulario-caja {
+    padding: 20px;
+}
+
+.form_title {
+    font-size: 2 rem;
+    margin-bottom: .5em;
+    color: red;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.form_paragraph {
+    font-weight: 300;
+    text-align: center;
+}
+
+.form_link {
+    font-weight: 400;
+    color: blue;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+
+}
+
+input {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+
+
+
+
+}
