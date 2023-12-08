@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "lite-server" 
+    "dev": "lite-server",
+    "start": "node js/javascript.js"
   },
   "keywords": [],
   "author": "",
@@ -15,3 +16,4 @@
     "server": "^1.0.38"
   }
 }
+
